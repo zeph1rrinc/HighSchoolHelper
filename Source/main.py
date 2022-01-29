@@ -39,10 +39,6 @@ def menu():
 
 def main():
     menu()
-    # value = int(input("value="))
-    # while value != -1:
-    #     print(factorial(value))
-    #     value = int(input("value="))
 
 
 if __name__ == "__main__":
