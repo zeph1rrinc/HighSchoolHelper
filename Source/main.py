@@ -4,6 +4,19 @@ from oneNumberExpressions import one_number_menu
 from logo import get_logo
 
 
+def start():
+    cls()
+    print("Приветствую вас в своем помощнике старшеклассника! В нем вы найдете многое, что понадобится вам в учебе!")
+    input("Для продолжения нажмите клавишу enter...")
+
+
+def bye():
+    cls()
+    print("Спасибо, что воспользовались моим помощником!")
+    print(get_logo())
+    input("Для выхода нажмите клавишу enter...")
+
+
 def basic_calculator():
     expression = input('Введите пример:\n')
     print(f'{expression} = {eval(expression)}')
@@ -34,14 +47,9 @@ def menu():
 
 
 def main():
-    print("Приветствую вас в своем помощнике старшеклассника! В нем вы найдете многое, что понадобится вам в учебе!")
-    input("Для продолжения нажмите клавишу enter...")
+    start()
     menu()
-    cls()
-    print("Спасибо, что воспользовались моим помощником!")
-    print()
-    print(get_logo())
-    input("Для выхода нажмите клавишу enter...")
+    bye()
 
 if __name__ == "__main__":
     main()
