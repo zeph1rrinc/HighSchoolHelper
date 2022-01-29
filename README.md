@@ -14,7 +14,7 @@
 - Модули: os, time, math, pytoexe
 - Версия: 0.0.0.1
 - Название HighSchoolHelper
-- Создатель: Антон Григорьев <zeph1rr@zeph1rr.ru>
+- Создатель: Антон Григорьев <<zeph1rr@zeph1rr.ru>>
 
 ### Общая информация
 
