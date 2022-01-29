@@ -28,20 +28,20 @@ def menu():
         basic_calculator()
         menu()
     elif choose == len(menuConfig):
-        cls()
-        print("Спасибо, что воспользовались моим помощником!")
-        print()
-        print(get_logo())
-        input("Для выхода нажмите клавишу enter...")
+        return
     else:
         menu()
 
 
 def main():
-    menu()
-
-
-if __name__ == "__main__":
     print("Приветствую вас в своем помощнике старшеклассника! В нем вы найдете многое, что понадобится вам в учебе!")
     input("Для продолжения нажмите клавишу enter...")
+    menu()
+    cls()
+    print("Спасибо, что воспользовались моим помощником!")
+    print()
+    print(get_logo())
+    input("Для выхода нажмите клавишу enter...")
+
+if __name__ == "__main__":
     main()
