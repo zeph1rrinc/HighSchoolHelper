@@ -1,6 +1,7 @@
 from random import randint
 from config import *
 from oneNumberExpressions import one_number_menu
+from trigonometry import trigonometry_menu
 from logo import get_logo
 
 
@@ -39,6 +40,9 @@ def menu():
         menu()
     elif choose == 2:
         basic_calculator()
+        menu()
+    elif choose == 3:
+        trigonometry_menu()
         menu()
     elif choose == len(menuConfig):
         return
