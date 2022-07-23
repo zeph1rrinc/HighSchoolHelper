@@ -18,6 +18,5 @@ def get_logo():
      \________________________________/       
      
      Сreated by (с) Zeph1rr
-     https://www.zeph1rr.ru/    
     """
     return invert
